@@ -13,19 +13,20 @@
         <div class="col-12 d-grid justify-content-center">
             <h3>Sign In</h3>
             <label for="">Username</label>
-            <input type="text" name="" id="">
+            <input type="text" name="" id="username">
             <label for="">Password</label>
-            <input type="password">
+            <input type="password" id="password">
             <div class="input-group mb-1">
                 <div class="input-group-text">
                     <span><input class="form-check-input mt-1" type="checkbox" value="" aria-label="Checkbox for following text input me-4">Remeber Me</span>
                 </div>
             </div>
-            <a href="" class="text-danger">forgot password</a>
-            <button class="btn btn-primary mt-1">Sign In</button>
+            <a href="#" class="text-danger" onclick="forgotpassword();">forgot password</a>
+            <button class="btn btn-primary mt-1" onclick="signIn();">Sign In</button>
         </div>
-
     </div>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
