@@ -12,13 +12,13 @@
     <div class="row p-5">
         <div class="col-12 d-grid justify-content-center">
             <h3>Sign In</h3>
-            <label for="">Username</label>
-            <input type="text" name="" id="username">
+            <label for="">email</label>
+            <input type="email" name="" id="email">
             <label for="">Password</label>
             <input type="password" id="password">
             <div class="input-group mb-1">
                 <div class="input-group-text">
-                    <span><input class="form-check-input mt-1" type="checkbox" value="" aria-label="Checkbox for following text input me-4">Remeber Me</span>
+                    <span><input class="form-check-input mt-1" id="rememberme" type="checkbox" value="" aria-label="Checkbox for following text input me-4">Remeber Me</span>
                 </div>
             </div>
             <a href="#" class="text-danger" onclick="forgotpassword();">forgot password</a>
